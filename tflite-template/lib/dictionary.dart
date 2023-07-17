@@ -1,0 +1,43 @@
+import 'food_info.dart';
+
+class FoodDictionary{
+  static Map<String, FoodInfo> allFoods =
+  {
+    "0 apple": FoodInfo("Apple"),
+    "1 banana": FoodInfo("Banana"),
+    "2 beetroot": FoodInfo("Beetroot"),
+    "3 bell paper": FoodInfo("Bell Pepper"),
+    "4 cabbage": FoodInfo("Cabbage"),
+    "5 capsicum": FoodInfo("Capsicum"),
+    "6 carrot": FoodInfo("Carrot"),
+    "7 cauliflower": FoodInfo("Cauliflower"),
+    "8 chili pepper": FoodInfo("Chili Pepper"),
+    "9 corn": FoodInfo("Corn"),
+    "10 cucumber": FoodInfo("Cucumber"),
+    "11 eggplant": FoodInfo("Eggplant"),
+    "12 garlic": FoodInfo("garlic"),
+    "13 ginger": FoodInfo("ginger"),
+    "14 grapes": FoodInfo("grapes"),
+    "15 jalapeno": FoodInfo("jalapeno"),
+    "16 kiwi": FoodInfo("Kiwi"),
+    "17 lemon": FoodInfo("Lemon"),
+    "18 lettuce": FoodInfo("Lettuce"),
+    "19 mango": FoodInfo("Mango"),
+    "20 onion": FoodInfo("Onion"),
+    "21 orange": FoodInfo("Orange"),
+    "22 paprika": FoodInfo("Paprika"),
+    "23 pear": FoodInfo("pear"),
+    "24 peas": FoodInfo("Peas"),
+    "25 pineapple": FoodInfo("Pineapple"),
+    "26 pomegranate": FoodInfo("Pomegranate"),
+    "27 potato": FoodInfo("Potato"),
+    "28 raddish": FoodInfo("Raddish"),
+    "29 soy beans": FoodInfo("Soy Beans"),
+    "30 spinach": FoodInfo("Spinach"),
+    "31 sweetcorn": FoodInfo("Sweetcorn"),
+    "32 tomato": FoodInfo("Tomato"),
+    "33 turnip": FoodInfo("Turnip"),
+    "34 watermelon": FoodInfo("Watermelon"),
+    "35 sweetpotato": FoodInfo("Sweet Potato"),
+  };
+}
